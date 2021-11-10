@@ -47,11 +47,11 @@ ActiveTime=100
 #The amount of time (in ms) to slide icons into/out of the dock.
 SlideTime=100
 #The time (in ms) to fade the dock in/out on a hide (if FadeOpacity is < 1).
-FadeTime=50
+FadeTime=450
 #The time (in ms) to slide the dock in/out on a hide (if FadeOpacity is 1).
-HideTime=50
+HideTime=450
 #The size of the urgent glow (shown when dock is hidden), in tenths of a percent of IconSize.
-GlowSize=30
+GlowSize=430
 #The total time (in ms) to show the hidden-dock urgent glow.
 GlowTime=10000
 #The time (in ms) of each pulse of the hidden-dock urgent glow.
@@ -62,3 +62,5 @@ UrgentHueShift=150
 ItemMoveTime=450
 #Whether background and icons will unhide/hide with different speeds. The top-border of both will leave/hit the screen-edge at the same time.
 CascadeHide=true
+#The color (RGBA) of the badge displaying urgent count
+BadgeColor=0;;0;;0;;0
